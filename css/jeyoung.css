@@ -1,0 +1,146 @@
+
+@charset "utf-8";
+body{background-color: #484848;}
+
+*,
+*::after{box-sizing: border-box;}
+
+.jeyoung{
+    width: 400px;
+    height: 300px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.jeyoung .ear{
+    width: 70px;
+    height: 70px;
+    background-color: #ffd792;
+    border: 10px solid #000;
+    border-radius: 50%;
+    position: absolute; top: 78px;
+}
+
+.jeyoung .ear.left{left: -24px;}
+.jeyoung .ear.right{right: 51px;}
+
+.jeyoung .face{
+    width: 320px;
+    height: 367px;
+    background-color: #ffd792;
+    border: 10px solid #000;
+    border-radius: 50%;
+    position: absolute; bottom: 0;
+    margin: 0 auto;
+
+}
+
+.jeyoung .face .eyebrow{
+    position: absolute; top: 120px;
+    width: 60px;height:10px;
+    background-color: #000;
+    border-radius: 14px;
+    transition: 0.2s;
+}
+
+.jeyoung .face .eyebrow.left{left: 68px;}
+.jeyoung .face .eyebrow.right{right: 68px;}
+.jeyoung .face .eye{
+    position: absolute; top: 160px;
+    width: 18px;height: 18px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.eyebrush{
+    position: absolute; top: 160px;
+    background-color: #000;
+    width: 50px;
+    height: 5px;
+    border-radius: 5px;
+
+}
+.jeyoung .face .eyebrush.left{left: 80px;}
+.jeyoung .face .eyebrush.right{right: 80px;}
+
+.jeyoung .face .eye.left{left: 98px;}
+.jeyoung .face .eye.right{right: 98px;}
+
+.jeyoung .face .nose{
+    position: absolute; top: 180px;
+    width: 5px;height: 60px;
+    background-color: #000;
+    z-index: 2;
+    left: 50%;
+    margin-left: -10px;
+    transform: rotate(10deg);
+    border-radius: 5px;
+
+}
+
+    .jeyoung .face .mouth{
+    position: absolute;top: 280px;
+    width: 73px;height: 5px;
+    background-color: rgb(255, 122, 122);
+    border-radius: 50%;
+    left: 120px;
+}
+
+.jeyoung .hais{
+    width: 320px;
+    height: 180px;
+    background-color: #000;
+    border-radius: 50% 50% 10px 10px;
+    z-index: 3;
+    position: absolute;
+    top: -80px;
+}
+
+.jeyoung .hair{
+    width: 200px;
+    height: 280px;
+    position: absolute;
+
+    background-color: #000;
+    border-radius: 40%;
+    top: -52px;
+    z-index: -2;
+
+}
+
+.jeyoung .hair.left{ left: -10px;}
+.jeyoung .hair.right{ right: 70px;}
+/* .jeyoung .face .mouth.left{left: 127px;}
+.jeyoung .face .mouth.right{right: 127px;}
+.jeyoung .face .mouth::after{
+    content:"";
+    position: absolute;
+    top: 7px;
+    width: 23px;
+    height: 33px;
+    background-color: #fff;
+    z-index: 2;
+    transform: rotate(-45deg);
+}
+.jeyoung .face .mouth.left::after{left: 28px;}
+.jeyoung .face .mouth.right::after{right: 24px;}
+.jeyoung:hover .eyebrow.right{transform: rotate(-10deg);}
+.jeyoung:hover .eye.right{transform: scale(2,0.1);}
+
+.jeyoung .face .me{
+    position: absolute;
+    top: 190px; left: 43.5%;
+    z-index: -1;
+    width: 50px; height: 60px;
+    background-color:tomato;
+    border: 10px solid #000;
+    border-radius :40%;
+    transition: 0.2s;
+
+
+}
+
+.jeyoung:hover .face .me{
+    z-index: 1;
+    transform: translateY(60%);
+} */ 

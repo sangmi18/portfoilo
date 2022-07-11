@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\코딩2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "코딩"
+	}
+}
